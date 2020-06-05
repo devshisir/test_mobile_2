@@ -1,7 +1,11 @@
 /* XL (laptop) Device :1200px. */
-@media (min-width: 1200px) and (max-width: 1500px) {
-    
+@media (min-width: 576px) and (max-width: 4500px) {
+    #form_area.web_ty_4 .form_areaContainer {
+        min-height: 100vh;
+    }
 }
+
+
 
 /* LG Device :992px. */
 @media (min-width: 992px) and (max-width: 1199px) {

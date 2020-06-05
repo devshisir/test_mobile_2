@@ -28,7 +28,9 @@
 #mobile_quote_bottom_custom.hide{
     display: none !important;
 }
-
+.bottomText {
+    position: relative !important;
+}
 
 
 

@@ -1,0 +1,1311 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #05386B;
+	font-family: "Poppins", sans-serif
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0
+}
+
+ul {
+	margin: 0;
+	padding: 0
+}
+
+ul li {
+	margin: 0;
+	padding: 0;
+	list-style: none
+}
+
+a {
+	text-decoration: none;
+	color: #05386B;
+	transition: 0.4s
+}
+
+a:hover {
+	text-decoration: none;
+	color: #05386B
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0
+}
+
+body {
+	position: relative
+}
+
+p {
+	margin: 0;
+	padding: 0;
+	color: #323232
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #05386B;
+	font-family: "Poppins", sans-serif
+}
+
+.pst {
+	position: static !important
+}
+
+.psr {
+	position: relative !important
+}
+
+@font-face {
+	font-family: glight;
+	src: url(../font/glight.OTF)
+}
+
+@font-face {
+	font-family: gr;
+	src: url(../font/gr.TTF)
+}
+
+@font-face {
+	font-family: gm;
+	src: url(../font/gm.OTF)
+}
+
+@font-face {
+	font-family: gmr;
+	src: url(../font/gmr.TTF)
+}
+
+@font-face {
+	font-family: gbook;
+	src: url(../font/gbook.OTF)
+}
+
+@font-face {
+	font-family: gbold;
+	src: url(../font/gbold.TTF)
+}
+
+@font-face {
+	font-family: gblack;
+	src: url(../font/gblack.OTF)
+}
+
+.bb_none {
+	border-bottom: none !important
+}
+
+.pl0 {
+	padding-left: 0px
+}
+
+.pr0 {
+	padding-right: 0px
+}
+
+.white {
+	color: #fff
+}
+
+.bg_white {
+	background: #fff !important;
+	color: #05386B !important
+}
+
+.bg_suc {
+	background: #EEFFEB !important
+}
+
+.bg_wrong {
+	background: #FFE6E3 !important
+}
+
+.facebook {
+	background: #3b5999;
+	color: #fff
+}
+
+.google {
+	background: #dd4b39;
+	color: #fff
+}
+
+.pst {
+	position: static !important
+}
+
+.psr {
+	position: relative !important
+}
+
+#headerTop {
+	padding: 10px 0px;
+	background: #fff
+}
+
+#headerTop .logo a img {
+	height: 20px
+}
+
+#mobileBanar {
+	padding: 40px 0px;
+	background: #F9F4FF
+}
+
+#mobileBanar .mobileBanarContent h3 {
+	font-family: "Poppins", sans-serif;
+	font-size: 40px;
+	color: #242424;
+	margin-bottom: 3px
+}
+
+#mobileBanar .mobileBanarContent h3 span {
+	font-weight: bold
+}
+
+#mobileBanar .mobileBanarContent h4 {
+	font-family: "Poppins", sans-serif;
+	font-size: 40px;
+	color: #480BAB;
+	margin-bottom: 3px
+}
+
+#mobileBanar .mobileBanarContent h2 {
+	font-family: "Poppins", sans-serif;
+	font-size: 40px;
+	color: #480BAB
+}
+
+#mobileBanar .mobileBanarContent h2 span {
+	font-weight: bold
+}
+
+#mobileBanar .mobileBanarContentBottom {
+	margin-top: 40px
+}
+
+#mobileBanar .mobileBanarContentBottom .mobileBanarContentBottomItem {
+	margin-bottom: 35px
+}
+
+#mobileBanar .mobileBanarContentBottom .mobileBanarContentBottomItem p {
+	font-family: "Poppins", sans-serif;
+	font-weight: 300;
+	font-size: 13px;
+	color: #242424;
+	margin-top: 5px
+}
+
+#mobileBanar .mobileBanarContentBottom .mobileBanarContentBottomItem_2 {
+	position: relative;
+	top: 56px
+}
+
+#homeFreeTril {
+	padding: 20px 0px;
+	background: #fff
+}
+
+#homeFreeTril .homeFreeTrilBtn a {
+	display: block;
+	width: 100%;
+	padding: 16px 0px;
+	background: #44D66C;
+	font-weight: 600;
+	font-size: 16px;
+	color: #FFFFFF;
+	border-radius: 5px
+}
+
+#homeFreeTril .homeFreeTrilContent {
+	margin-top: 20px
+}
+
+#homeFreeTril .homeFreeTrilContent .bgLayer {
+	position: relative
+}
+
+#homeFreeTril .homeFreeTrilContent .bgLayer .homeFreeTrilContentMain {
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left: 0;
+	background: rgba(255, 255, 255, 0.9);
+	z-index: 9999;
+	transform: translateY(-50%);
+	text-align: center;
+	padding: 35px 20px
+}
+
+#homeFreeTril .homeFreeTrilContent .bgLayer .homeFreeTrilContentMain h3 {
+	font-family: "Poppins", sans-serif;
+	font-size: 16px;
+	color: #000000;
+	line-height: 160%
+}
+
+#homeFreeTril .homeFreeTrilContent .bgLayer .homeFreeTrilContentMain h3 span {
+	font-weight: bold
+}
+
+#homeFreeTril .homeFreeTrilContent .bgLayer .homeFreeTrilContentMain p {
+	font-family: "Poppins", sans-serif;
+	font-size: 16px;
+	color: #000000;
+	margin-top: 20px
+}
+
+#homeFreeTril .homeFreeTrilContent .bgLayer .homeFreeTrilContentMain p span {
+	font-weight: bold
+}
+
+#footer {
+	padding: 0px 0px 10px 0px;
+	background: #fff
+}
+
+#footer .footerContent p {
+	font-weight: 300;
+	font-size: 8px;
+	font-family: "Poppins", sans-serif;
+	color: #888888
+}
+
+#formPageHeader {
+	padding: 8px 0px;
+	background: #FAFAFA
+}
+
+#formInfoTop {
+	padding: 25px 0px 15px 0px;
+	background: #F9F4FF;
+	position: relative
+}
+
+#formInfoTop .formInfoTopContent p {
+	font-size: 13px;
+	color: rgba(0, 0, 0, 0.4);
+	font-family: "Poppins", sans-serif;
+	font-weight: 500
+}
+
+#formInfoTop .formInfoTopContent h4 {
+	margin-top: 10px;
+	font-size: 14px;
+	font-family: "Poppins", sans-serif;
+	color: #242424
+}
+
+#formInfoTop .formInfoTopContent h4 a {
+	margin-left: 10px
+}
+
+#formInfoTop .formProgress {
+	position: absolute;
+	bottom: -6px;
+	left: 0;
+	width: 100%
+}
+
+#formInfoTop .formProgress ul li {
+	display: inline-block;
+	height: 5px;
+	width: 0%;
+	background: #DFD0F9;
+	margin-right: -5px;
+	transition: 0.4s
+}
+
+#formInfoTop .formProgress ul .progress1.active {
+	width: 25%
+}
+
+#formInfoTop .formProgress ul .progress2.active {
+	width: 25%
+}
+
+#formInfoTop .formProgress ul .progress3.active {
+	width: 25%
+}
+
+#formInfoTop .formProgress ul .progress4.active {
+	width: 25%
+}
+
+#formPageForm {
+	background: url(../img/img/form_bg.png);
+	min-height: 75vh;
+	background-repeat: no-repeat;
+	background-position: 80% bottom
+}
+
+#formPageForm .formPageFormContent {
+	padding: 40px 0px
+}
+
+#formPageForm .formPageFormContent form .formPageFormItem .questionNumber {
+	font-size: 12px;
+	color: rgba(36, 36, 36, 0.33);
+	font-family: "Poppins", sans-serif;
+	font-weight: 500
+}
+
+#formPageForm .formPageFormContent form .formPageFormItem .Question {
+	margin-top: 10px;
+	font-size: 16px;
+	color: #505050;
+	font-family: "Poppins", sans-serif;
+	font-weight: 500
+}
+
+#formPageForm .formPageFormContent form .formPageFormItem .labelEmail {
+	font-weight: 300;
+	font-size: 9px;
+	font-family: "Poppins", sans-serif;
+	color: rgba(0, 0, 0, 0.2);
+	margin-top: 3px
+}
+
+#formPageForm .formPageFormContent form .formPageFormItem input#name {
+	margin-top: 20px;
+	border: none;
+	width: 100%;
+	font-size: 14px;
+	color: #242424;
+	font-family: "Poppins", sans-serif;
+	font-weight: 500
+}
+
+#formPageForm .formPageFormContent form .formPageFormItem input#email {
+	margin-top: 20px;
+	border: none;
+	width: 100%;
+	font-size: 14px;
+	color: #242424;
+	font-family: "Poppins", sans-serif;
+	font-weight: 500
+}
+
+#formPageForm .formPageFormContent form .formPageFormItem .iti.iti--allow-dropdown {
+	margin-top: 30px;
+	width: 100%;
+	background: transparent;
+	font-size: 14px;
+	color: #242424;
+	font-family: "Poppins", sans-serif;
+	font-weight: 500
+}
+
+#formPageForm .formPageFormContent form .formPageFormItem .iti__country {
+	padding: 5px 0px;
+	outline: none;
+	font-size: 13px;
+	font-family: "Poppins", sans-serif
+}
+
+#formPageForm .formPageFormContent form .formPageFormItem .iti__flag {
+	display: none !important
+}
+
+#formPageForm .formPageFormContent form .formPageFormItem .iti--separate-dial-code .iti__selected-flag {
+	background-color: transparent
+}
+
+#formPageForm .formPageFormContent form .formPageFormItem #formPageForm .formPageFormContent form .formPageFormItem .iti--separate-dial-code .iti__selected-flag {
+	background-color: transparent;
+	padding-left: 0px;
+	padding-right: 0px !important;
+	font-family: "Poppins", sans-serif
+}
+
+#formPageForm .formPageFormContent form .formPageFormItem input#phone {
+	margin-top: 20px;
+	border: none;
+	width: 100%;
+	font-size: 14px;
+	color: #242424;
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+	padding-left: 63px !important
+}
+
+#formPageForm .formPageFormContent form .formPageFormItem .iti--separate-dial-code .iti__selected-dial-code {
+	margin-left: 0px !important
+}
+
+#formPageForm .formPageFormContent form .formPageFormItem .iti__selected-flag {
+	padding: 0px
+}
+
+#formPageForm .formPageFormContent form .formPageFormItem .formRadio {
+	margin-top: 30px
+}
+
+#formPageForm .formPageFormContent form .formPageFormItem .formRadio .form-check {
+	margin-bottom: 15px
+}
+
+#formPageForm .formPageFormContent form .formPageFormItem .formRadio .form-check .form-check-label {
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	color: #242424;
+	position: relative;
+	top: -2px
+}
+
+#formPageForm .formPageFormContent form .formPageFormItem #EmailError {
+	color: #D23939;
+	font-family: "Poppins", sans-serif;
+	font-size: 9px;
+	font-style: italic;
+	font-weight: 300
+}
+
+#formPageForm .formPageFormContent form .formPageFormItem #phoneError {
+	color: #D23939;
+	font-family: "Poppins", sans-serif;
+	font-size: 9px;
+	font-style: italic;
+	font-weight: 300
+}
+
+#formPageForm .formPageFormContent form .formPageFormItem #nameNext {
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.4s;
+	background: #44D66C;
+	font-weight: 600;
+	font-size: 12px;
+	color: #fff;
+	font-family: "Poppins", sans-serif;
+	padding: 12px 60px;
+	border: none;
+	border-radius: 5px;
+	margin: 0 auto;
+	display: table;
+	margin-top: 90px;
+	position: relative;
+	outline: none;
+	box-shadow: none
+}
+
+#formPageForm .formPageFormContent form .formPageFormItem #nameNext span {
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 17px
+}
+
+#formPageForm .formPageFormContent form .formPageFormItem #nameNext.show {
+	opacity: 1;
+	visibility: visible
+}
+
+#formPageForm .formPageFormContent form .formPageFormItem ::placeholder {
+	color: rgba(36, 36, 36, 0.2);
+	opacity: 1
+}
+
+#formPageForm .formPageFormContent form .formPageFormItem :-ms-input-placeholder {
+	color: rgba(36, 36, 36, 0.2)
+}
+
+#formPageForm .formPageFormContent form .formPageFormItem ::-ms-input-placeholder {
+	color: rgba(36, 36, 36, 0.2)
+}
+
+#formPageForm .formPageFormContent form .formPageFormItem #EmailNext {
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.4s;
+	background: #44D66C;
+	font-weight: 600;
+	font-size: 12px;
+	color: #fff;
+	font-family: "Poppins", sans-serif;
+	padding: 12px 60px;
+	border: none;
+	border-radius: 5px;
+	margin: 0 auto;
+	display: table;
+	margin-top: 90px;
+	position: relative;
+	outline: none;
+	box-shadow: none;
+	transition: 0.4s
+}
+
+#formPageForm .formPageFormContent form .formPageFormItem #EmailNext span {
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 17px
+}
+
+#formPageForm .formPageFormContent form .formPageFormItem #EmailNext.showEmailNext {
+	opacity: 1;
+	visibility: visible
+}
+
+#formPageForm .formPageFormContent form .formPageFormItem #EmailNext.dissable {
+	opacity: 0.9;
+	pointer-events: none
+}
+
+#formPageForm .formPageFormContent form .formPageFormItem #PhoneNext {
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.4s;
+	background: #44D66C;
+	font-weight: 600;
+	font-size: 12px;
+	color: #fff;
+	font-family: "Poppins", sans-serif;
+	padding: 12px 60px;
+	border: none;
+	border-radius: 5px;
+	margin: 0 auto;
+	display: table;
+	margin-top: 90px;
+	position: relative;
+	outline: none;
+	box-shadow: none;
+	transition: 0.4s
+}
+
+#formPageForm .formPageFormContent form .formPageFormItem #PhoneNext span {
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 17px
+}
+
+#formPageForm .formPageFormContent form .formPageFormItem #PhoneNext.showPhoneNext {
+	opacity: 1;
+	visibility: visible
+}
+
+#formPageForm .formPageFormContent form .formPageFormItem #PhoneNext.dissable {
+	opacity: 0.9;
+	pointer-events: none
+}
+
+#formPageForm .formPageFormContent form .formPageFormItem #SubmitButton {
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.4s;
+	background: #44D66C;
+	font-weight: 600;
+	font-size: 12px;
+	color: #fff;
+	font-family: "Poppins", sans-serif;
+	padding: 12px 60px;
+	border: none;
+	border-radius: 5px;
+	margin: 0 auto;
+	display: table;
+	margin-top: 60px;
+	position: relative;
+	outline: none;
+	box-shadow: none;
+	transition: 0.4s
+}
+
+#formPageForm .formPageFormContent form .formPageFormItem #SubmitButton.showSubmit {
+	opacity: 1;
+	visibility: visible
+}
+
+#formPageForm .formPageFormContent form #formPageFormItem1 {
+	transition: 0.4s
+}
+
+#formPageForm .formPageFormContent form #formPageFormItem1.hide {
+	opacity: 0;
+	visibility: hidden;
+	display: none
+}
+
+#formPageForm .formPageFormContent form #formPageFormItem2 {
+	display: none
+}
+
+#formPageForm .formPageFormContent form #formPageFormItem2.showItem2 {
+	display: block
+}
+
+#formPageForm .formPageFormContent form #formPageFormItem3 {
+	display: none
+}
+
+#formPageForm .formPageFormContent form #formPageFormItem3.showItem3 {
+	display: block
+}
+
+#formPageForm .formPageFormContent form #formPageFormItem4 {
+	display: none
+}
+
+#formPageForm .formPageFormContent form #formPageFormItem4.showItem4 {
+	display: block
+}
+
+#optMainarea {
+	background: url(../img/img/form_bg.png);
+	min-height: 71vh;
+	background-repeat: no-repeat;
+	background-position: 89% top;
+	padding: 50px 0px
+}
+
+#optMainarea .optMainareaContent {
+	text-align: center;
+	background: #fff
+}
+
+#optMainarea .optMainareaContent input {
+	width: 47px;
+	padding: 10px 0px;
+	border: none;
+	border-bottom: 1px solid #000;
+	margin: 0px 12px;
+	text-align: center;
+	font-family: "Poppins", sans-serif;
+	font-size: 15px;
+	font-weight: 500
+}
+
+#optMainarea .optMainareaContent .verifyBtn a {
+	transition: 0.4s;
+	background: #44D66C;
+	font-weight: 600;
+	font-size: 12px;
+	color: #fff;
+	font-family: "Poppins", sans-serif;
+	padding: 12px 60px;
+	border: none;
+	border-radius: 5px;
+	margin: 0 auto;
+	display: table;
+	margin-top: 60px;
+	position: relative;
+	outline: none;
+	box-shadow: none;
+	transition: 0.4s
+}
+
+#optMainarea .optMainareaContent .resentOtp {
+	margin-top: 30px
+}
+
+#optMainarea .optMainareaContent .resentOtp a {
+	font-weight: 500;
+	font-size: 15px;
+	font-family: "Poppins", sans-serif;
+	color: #5C5C5C
+}
+
+#phoneEditPopup {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	background: rgba(255, 255, 255, 0.836);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	vertical-align: middle;
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.4s
+}
+
+#phoneEditPopup .phoneEditPopupContent {
+	padding: 30px 0px;
+	width: 90%;
+	background: #fff;
+	box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+	text-align: center;
+	border-radius: 5px;
+	position: relative
+}
+
+#phoneEditPopup .phoneEditPopupContent #phoneEditClose {
+	position: absolute;
+	top: 2px;
+	right: 10px;
+	color: #C4C4C4
+}
+
+#phoneEditPopup .phoneEditPopupContent p {
+	font-family: "Poppins", sans-serif;
+	font-size: 13px;
+	color: rgba(36, 36, 36, 0.4);
+	font-weight: 500
+}
+
+#phoneEditPopup .phoneEditPopupContent .iti.iti--allow-dropdown {
+	margin-top: 30px;
+	width: 100%;
+	background: transparent;
+	font-size: 14px;
+	color: #242424;
+	font-family: "Poppins", sans-serif;
+	font-weight: 500
+}
+
+#phoneEditPopup .phoneEditPopupContent .iti__country {
+	padding: 5px 0px;
+	outline: none;
+	font-size: 13px;
+	font-family: "Poppins", sans-serif
+}
+
+#phoneEditPopup .phoneEditPopupContent .iti__flag {
+	display: none !important
+}
+
+#phoneEditPopup .phoneEditPopupContent .iti--separate-dial-code .iti__selected-flag {
+	background-color: transparent
+}
+
+#phoneEditPopup .phoneEditPopupContent #formPageForm .formPageFormContent form .formPageFormItem .iti--separate-dial-code .iti__selected-flag {
+	background-color: transparent;
+	padding-left: 0px;
+	padding-right: 0px !important;
+	font-family: "Poppins", sans-serif
+}
+
+#phoneEditPopup .phoneEditPopupContent input#phoneEdit {
+	border: none;
+	width: 100%;
+	font-size: 14px;
+	color: #242424;
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+	padding-left: 54px !important;
+	background: transparent
+}
+
+#phoneEditPopup .phoneEditPopupContent .iti--separate-dial-code .iti__selected-dial-code {
+	margin-left: 0px !important
+}
+
+#phoneEditPopup .phoneEditPopupContent .iti__selected-flag {
+	padding: 0px
+}
+
+#phoneEditPopup .phoneEditPopupContent .iti.iti--allow-dropdown.iti--separate-dial-code {
+	margin-left: 69px;
+	margin-top: 9px !important
+}
+
+#phoneEditPopup.show {
+	opacity: 1;
+	visibility: visible
+}
+
+#tahnksBanar {
+	padding: 60px 0px;
+	background: #F9F4FF
+}
+
+#tahnksBanar .tahnksBanarContent h3 {
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+	font-size: 32px;
+	color: #242424;
+	line-height: 40px
+}
+
+#tahnksBanar .tahnksBanarContent h3 span {
+	font-weight: 700
+}
+
+#thanksBottom {
+	background: #fff
+}
+
+#thanksBottom .thanksBottomContet img {
+	display: block;
+	height: 95px;
+	margin: 0 auto;
+	position: relative;
+	top: -50px
+}
+
+#thanksBottom .thanksBottomContet a {
+	transition: 0.4s;
+	background: #44D66C;
+	font-weight: 600;
+	font-size: 14px;
+	color: #fff;
+	font-family: "Poppins", sans-serif;
+	padding: 16px 0px;
+	border: none;
+	border-radius: 5px;
+	margin: 0 auto;
+	display: block;
+	/* margin-top: -30px; */
+	position: relative;
+	outline: none;
+	box-shadow: none;
+	transition: 0.4s;
+	text-transform: capitalize;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.homeFreeTrilBtn.text-center {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999999999999999;
+}
+#homeFreeTril .homeFreeTrilBtn a {
+    border-radius: 0px;
+}
+#optPopup{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  z-index: 99999999999;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.4s
+}
+#optPopup.show{
+  opacity: 1;
+  visibility: visible;
+}
+.otpPopupHeader{
+    padding: 8px 0px;
+    background: #FAFAFA;
+}
+.otpFormInfo{
+  padding: 25px 0px 15px 0px;
+  background: rgba(249,232,232,0.5);
+  position: relative;
+}
+.formInfoTopContent p {
+    font-size: 13px;
+    color: rgba(0,0,0,0.4);
+    font-family: "Poppins",sans-serif;
+    font-weight: 500;
+}
+.formInfoTopContent h4 {
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: "Poppins",sans-serif;
+    color: #242424;
+}
+.ptpMainArea{
+    background: url(../img/img/form_bg.png);
+    min-height: 71vh;
+    background-repeat: no-repeat;
+    background-position: 89% top;
+    padding: 50px 0px;
+}
+.optMainareaContent {
+    text-align: center;
+    background: #fff;
+}
+.optMainareaContent input {
+    width: 47px;
+    padding: 10px 0px;
+    border: none;
+    border-bottom: 1px solid #000;
+    margin: 0px 12px;
+    text-align: center;
+    font-family: "Poppins",sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+.optMainareaContent .verifyBtn a {
+    transition: 0.4s;
+    background: #44D66C;
+    font-weight: 600;
+    font-size: 12px;
+    color: #fff;
+    font-family: "Poppins",sans-serif;
+    padding: 12px 60px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: table;
+    margin-top: 60px;
+    position: relative;
+    outline: none;
+    box-shadow: none;
+    transition: 0.4s;
+}
+.optMainareaContent .resentOtp {
+    margin-top: 30px;
+}
+.optMainareaContent .resentOtp a {
+    font-weight: 500;
+    font-size: 15px;
+    font-family: "Poppins",sans-serif;
+    color: #5C5C5C;
+}
+#phoneEditPopup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: rgba(255,255,255,0.836);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s;
+}
+#phoneEditPopup.show {
+    opacity: 1;
+    visibility: visible;
+    z-index: 9999999999999999;
+}
+#updateNumberBtn{
+    transition: 0.4s;
+    background: #44D66C;
+    font-weight: 600;
+    font-size: 12px;
+    color: #fff;
+    font-family: "Poppins",sans-serif;
+    padding: 12px 60px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: table;
+    margin-top: 10px;
+    position: relative;
+    outline: none;
+    box-shadow: none;
+}
+/* XL (laptop) Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    #headerTop {
+        padding: 15px 0px;
+    }
+    #mobileBanar .mobileBanarContent h3 {
+        font-size: 54px;
+    }
+    #mobileBanar .mobileBanarContent h4 {
+        font-size: 54px;
+    }
+    #mobileBanar .mobileBanarContent h2 {
+        font-size: 54px;
+    }
+    .bgLayer > img{
+        display: none;
+    }
+    #homeFreeTril{
+        padding: 200px 0px;
+        background-image: url(../img/img/trailbg.png);
+        background-repeat: repeat;
+    }
+    #homeFreeTril .homeFreeTrilContent {
+        margin-top: 0px;
+    }
+    #homeFreeTril .homeFreeTrilContent .bgLayer .homeFreeTrilContentMain {
+        padding: 30px 0px;
+    }
+    #homeFreeTril .homeFreeTrilContent .bgLayer .homeFreeTrilContentMain h3 {
+        width: 65%;
+        margin: 0 auto;
+    }
+    #footer {
+        padding-bottom: 100px;
+        padding-top: 32px;
+    }
+    #footer .footerContent p {
+        font-size: 12px;
+    }
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+    #homeFreeTril{
+        padding: 100px 0px;
+        background-image: url(../img/img/trailbg.png);
+        background-repeat: repeat;
+    }
+    #homeFreeTril .homeFreeTrilContent {
+        margin-top: 0px;
+    }
+    #homeFreeTril .homeFreeTrilContent .bgLayer .homeFreeTrilContentMain {
+        padding: 30px 0px;
+    }
+    #homeFreeTril .homeFreeTrilContent .bgLayer .homeFreeTrilContentMain h3 {
+        width: 65%;
+        margin: 0 auto;
+        font-size: 23px;
+    }
+    #homeFreeTril .homeFreeTrilContent .bgLayer .homeFreeTrilContentMain p {
+        font-size: 22px;
+    }
+}
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    #headerTop {
+        padding: 15px 0px;
+    }
+    #mobileBanar .mobileBanarContent h3 {
+        font-size: 54px;
+    }
+    #mobileBanar .mobileBanarContent h4 {
+        font-size: 54px;
+    }
+    #mobileBanar .mobileBanarContent h2 {
+        font-size: 54px;
+    }
+    .bgLayer > img{
+        display: none;
+    }
+    #homeFreeTril{
+        padding: 200px 0px;
+        background-image: url(../img/img/trailbg.png);
+        background-repeat: repeat;
+    }
+    #homeFreeTril .homeFreeTrilContent {
+        margin-top: 0px;
+    }
+    #homeFreeTril .homeFreeTrilContent .bgLayer .homeFreeTrilContentMain {
+        padding: 30px 0px;
+    }
+    #homeFreeTril .homeFreeTrilContent .bgLayer .homeFreeTrilContentMain h3 {
+        width: 65%;
+        margin: 0 auto;
+    }
+    #footer {
+        padding-bottom: 100px;
+        padding-top: 32px;
+    }
+    #footer .footerContent p {
+        font-size: 12px;
+    }
+}
+/* Extra small Device. */
+@media (max-width: 575px) {
+    #footer {
+        padding-bottom: 80px;
+        padding-top: 32px;
+    }
+    #footer .footerContent p {
+        font-size: 10px;
+    }
+}
+/*-- Phone Landscape --*/
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    #headerTop {
+        padding: 15px 0px;
+    }
+    #mobileBanar .mobileBanarContent h3 {
+        font-size: 54px;
+    }
+    #mobileBanar .mobileBanarContent h4 {
+        font-size: 54px;
+    }
+    #mobileBanar .mobileBanarContent h2 {
+        font-size: 54px;
+    }
+    .bgLayer > img{
+        display: none;
+    }
+    #homeFreeTril{
+        padding: 200px 0px;
+        background-image: url(../img/img/trailbg.png);
+        background-repeat: repeat;
+    }
+    #homeFreeTril .homeFreeTrilContent {
+        margin-top: 0px;
+    }
+    #homeFreeTril .homeFreeTrilContent .bgLayer .homeFreeTrilContentMain {
+        padding: 30px 0px;
+    }
+    #homeFreeTril .homeFreeTrilContent .bgLayer .homeFreeTrilContentMain h3 {
+        width: 65%;
+        margin: 0 auto;
+    }
+    #footer {
+        padding-bottom: 100px;
+        padding-top: 32px;
+    }
+    #footer .footerContent p {
+        font-size: 12px;
+    }
+}
+@media (max-width: 767px) {
+}
+
+.nice-select {
+  -webkit-tap-highlight-color: transparent;
+  background-color: #fff;
+  border-radius: 5px;
+  border: solid 1px #e8e8e8;
+  box-sizing: border-box;
+  clear: both;
+  cursor: pointer;
+  display: block;
+  float: left;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: normal;
+  height: 42px;
+  line-height: 40px;
+  outline: none;
+  padding-left: 18px;
+  padding-right: 30px;
+  position: relative;
+  text-align: left !important;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  white-space: nowrap;
+  width: auto; }
+  .nice-select:hover {
+    border-color: #dbdbdb; }
+  .nice-select:active, .nice-select.open, .nice-select:focus {
+    border-color: #999; }
+  .nice-select:after {
+    border-bottom: 2px solid #999;
+    border-right: 2px solid #999;
+    content: '';
+    display: block;
+    height: 5px;
+    margin-top: -4px;
+    pointer-events: none;
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    -webkit-transform-origin: 66% 66%;
+        -ms-transform-origin: 66% 66%;
+            transform-origin: 66% 66%;
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+    width: 5px; }
+  .nice-select.open:after {
+    -webkit-transform: rotate(-135deg);
+        -ms-transform: rotate(-135deg);
+            transform: rotate(-135deg); }
+  .nice-select.open .list {
+    opacity: 1;
+    pointer-events: auto;
+    -webkit-transform: scale(1) translateY(0);
+        -ms-transform: scale(1) translateY(0);
+            transform: scale(1) translateY(0); }
+  .nice-select.disabled {
+    border-color: #ededed;
+    color: #999;
+    pointer-events: none; }
+    .nice-select.disabled:after {
+      border-color: #cccccc; }
+  .nice-select.wide {
+    width: 100%; }
+    .nice-select.wide .list {
+      left: 0 !important;
+      right: 0 !important; }
+  .nice-select.right {
+    float: right; }
+    .nice-select.right .list {
+      left: auto;
+      right: 0; }
+  .nice-select.small {
+    font-size: 12px;
+    height: 36px;
+    line-height: 34px; }
+    .nice-select.small:after {
+      height: 4px;
+      width: 4px; }
+    .nice-select.small .option {
+      line-height: 34px;
+      min-height: 34px; }
+  .nice-select .list {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 0 1px rgba(68, 68, 68, 0.11);
+    box-sizing: border-box;
+    margin-top: 4px;
+    opacity: 0;
+    overflow: hidden;
+    padding: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    -webkit-transform-origin: 50% 0;
+        -ms-transform-origin: 50% 0;
+            transform-origin: 50% 0;
+    -webkit-transform: scale(0.75) translateY(-21px);
+        -ms-transform: scale(0.75) translateY(-21px);
+            transform: scale(0.75) translateY(-21px);
+    -webkit-transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
+    transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
+    z-index: 9; }
+    .nice-select .list:hover .option:not(:hover) {
+      background-color: transparent !important; }
+  .nice-select .option {
+    cursor: pointer;
+    font-weight: 400;
+    line-height: 40px;
+    list-style: none;
+    min-height: 40px;
+    outline: none;
+    padding-left: 18px;
+    padding-right: 29px;
+    text-align: left;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s; }
+    .nice-select .option:hover, .nice-select .option.focus, .nice-select .option.selected.focus {
+      background-color: #f6f6f6; }
+    .nice-select .option.selected {
+      font-weight: bold; }
+    .nice-select .option.disabled {
+      background-color: transparent;
+      color: #999;
+      cursor: default; }
+
+.no-csspointerevents .nice-select .list {
+  display: none; }
+
+.no-csspointerevents .nice-select.open .list {
+  display: block; }

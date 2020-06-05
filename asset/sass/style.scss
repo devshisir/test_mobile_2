@@ -1,0 +1,761 @@
+@import 'import/reset.scss';
+@import 'import/_color.scss';
+/*-- this is for typography --*/
+@import 'import/typography.scss';
+@import 'import/_comn.scss';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+$pop :  'Poppins', sans-serif;
+@font-face {
+    font-family: glight;
+    src: url(../font/glight.OTF);
+}
+@font-face {
+    font-family: gr;
+    src: url(../font/gr.TTF);
+}
+@font-face {
+    font-family: gm;
+    src: url(../font/gm.OTF);
+}
+@font-face {
+    font-family: gmr;
+    src: url(../font/gmr.TTF);
+}
+@font-face {
+    font-family: gbook;
+    src: url(../font/gbook.OTF);
+}
+@font-face {
+    font-family: gbold;
+    src: url(../font/gbold.TTF);
+}
+@font-face {
+    font-family: gblack;
+    src: url(../font/gblack.OTF);
+}
+.bb_none{
+    border-bottom: none !important;
+}
+/*-- start header top css --*/
+.pl0{
+    padding-left: 0px;
+}
+.pr0{
+    padding-right: 0px;
+}
+.white{
+    color: #fff;
+}
+.bg_white{
+    background: #fff !important;
+    color: $titleColor !important;
+}
+.bg_suc{
+    background: #EEFFEB !important;
+}
+.bg_wrong{
+    background: #FFE6E3 !important;
+}
+.facebook{
+    background: #3b5999;
+    color: #fff;
+}
+.google{
+    background: #dd4b39;
+    color: #fff;
+}
+.pst{
+    position: static !important;
+}
+.psr{
+    position: relative !important;
+}
+// headerTop
+#headerTop{
+    padding: 10px 0px;
+    background: #fff;
+    .logo{
+        a{
+            img{
+                height: 20px;
+            }
+        }
+    }
+}
+// mobileBanar
+#mobileBanar{
+    padding: 40px 0px;
+    background: #FFF1F1;
+    .mobileBanarContent{
+        h3{
+            font-family: $pop;
+            font-size: 40px;
+            color: #242424;
+            margin-bottom: 3px;
+            span{
+                font-weight: bold;
+            }
+        }
+        h4{
+            font-family: $pop;
+            font-size: 40px;
+            color: #242424;
+            margin-bottom: 3px;
+        }
+        h2{
+            font-family: $pop;
+            font-size: 40px;
+            color: #242424;
+            span{
+                font-weight: bold;
+            }
+        }
+    }
+    .mobileBanarContentBottom{
+        margin-top: 40px;
+        .mobileBanarContentBottomItem{
+            margin-bottom: 35px;
+            p{
+                font-family: $pop;
+                font-weight: 300;
+                font-size: 13px;
+                color: #242424;
+                margin-top: 5px;
+            }
+        }
+        .mobileBanarContentBottomItem_2{
+            position: relative;
+            top: 56px;
+        }
+    }
+}
+#homeFreeTril{
+    padding: 20px 0px;
+    background: #fff;
+    .homeFreeTrilBtn{
+        a{
+            display: block;
+            width: 100%;
+            padding: 16px 0px;
+            background: #44D66C;
+            font-weight: 600;
+            font-size: 16px;
+            color: #FFFFFF;
+            border-radius: 5px;
+        }
+    }
+    .homeFreeTrilContent{
+        margin-top: 20px;
+        .bgLayer{
+            position: relative;
+            .homeFreeTrilContentMain{
+                position: absolute;
+                width: 100%;
+                top: 50%;
+                left: 0;
+                background: rgba(255, 255, 255, 0.9);
+                z-index: 9999;
+                transform: translateY(-50%);
+                text-align: center;
+                padding: 35px 20px;
+                h3{
+                    font-family: $pop;
+                    font-size: 16px;
+                    color: #000000;
+                    line-height: 160%;
+                    span{
+                        font-weight: bold;
+                    }
+                }
+                p{
+                    font-family: $pop;
+                    font-size: 16px;
+                    color: #000000;
+                    margin-top: 20px;
+                    span{
+                        font-weight: bold;
+                    } 
+                }
+            }
+        }
+    }
+}
+//footer
+#footer{
+    padding: 0px 0px 10px 0px;
+    background: #fff;
+    .footerContent{
+        p{
+            font-weight: 300;
+            font-size: 8px;
+            font-family: $pop;
+            color: #888888;
+        }
+    }
+}
+// form page style 
+#formPageHeader{
+    padding: 8px 0px;
+    background: #FAFAFA;
+}
+//formInfoTop
+#formInfoTop{
+    padding: 25px 0px 15px 0px;
+    background: rgba(249, 232, 232, 0.5);
+    position: relative;
+    .formInfoTopContent{
+        p{
+            font-size: 13px;
+            color: rgba(0, 0, 0, 0.4);
+            font-family: $pop;
+            font-weight: 500;
+        }
+        h4{
+            margin-top: 10px;
+            font-size: 14px;
+            font-family: $pop;
+            color: #242424;
+            a{
+                margin-left: 10px;
+            }
+        }
+    }
+    .formProgress{
+        position: absolute;
+        bottom: -6px;
+        left: 0;
+        width: 100%;
+        ul{
+            li{
+                display: inline-block;
+                height: 5px;
+                width: 0%;
+                background: #F7E4E4;
+                margin-right: -5px;
+                transition: 0.4s;
+            }
+            .progress1.active{
+                width: 25%;
+            }
+            .progress2.active{
+                width: 25%;
+            }
+            .progress3.active{
+                width: 25%;
+            }
+            .progress4.active{
+                width: 25%;
+            }
+        }
+    }
+}
+// formPageForm
+#formPageForm{
+    background: url(../img/img/form_bg.png);
+    min-height: 75vh;
+    background-repeat: no-repeat;
+    background-position: 80% bottom;
+    .formPageFormContent{
+        padding: 40px 0px;
+        form{
+            .formPageFormItem{
+                .questionNumber{
+                    font-size: 12px;
+                    color: rgba(36, 36, 36, 0.33);
+                    font-family: $pop;
+                    font-weight: 500;
+                }
+                .Question{
+                    margin-top: 10px;
+                    font-size: 16px;
+                    color: #505050;
+                    font-family: $pop;
+                    font-weight: 500;
+                }
+                .labelEmail{
+                    font-weight: 300;
+                    font-size: 9px;
+                    font-family: $pop;
+                    color: rgba(0, 0, 0, 0.2);
+                    margin-top: 3px;
+                }
+                input#name{
+                    margin-top: 20px;
+                    border: none;
+                    width: 100%;
+                    font-size: 14px;
+                    color: #242424;
+                    font-family: $pop;
+                    font-weight: 500;
+                }
+                input#email{
+                    margin-top: 20px;
+                    border: none;
+                    width: 100%;
+                    font-size: 14px;
+                    color: #242424;
+                    font-family: $pop;
+                    font-weight: 500;
+                }
+                // style input phone
+                .iti.iti--allow-dropdown {
+                    margin-top: 30px;
+                    width: 100%;
+                    background: transparent;
+                    font-size: 14px;
+                    color: #242424;
+                    font-family: $pop;
+                    font-weight: 500;
+                }
+                .iti__country {
+                    padding: 5px 0px;
+                    outline: none;
+                    font-size: 13px;
+                    font-family: $pop;
+                }
+                .iti__flag {
+                    display: none !important;
+                }
+                .iti--separate-dial-code .iti__selected-flag {
+                    background-color: transparent;
+                } 
+                #formPageForm .formPageFormContent form .formPageFormItem .iti--separate-dial-code .iti__selected-flag {
+                    background-color: transparent;
+                    padding-left: 0px;
+                    padding-right: 0px !important;
+                    font-family: $pop;
+                }  
+                input#phone{
+                    margin-top: 20px;
+                    border: none;
+                    width: 100%;
+                    font-size: 14px;
+                    color: #242424;
+                    font-family: "Poppins",sans-serif;
+                    font-weight: 500;
+                    padding-left: 63px !important;
+                }
+                .iti--separate-dial-code .iti__selected-dial-code {
+                    margin-left: 0px !important;
+                }
+                .iti__selected-flag {
+                    padding: 0px;
+                }
+                // form radio
+                .formRadio{
+                    margin-top: 30px;
+                    .form-check{
+                        margin-bottom: 15px;
+                        .form-check-label{
+                            font-family: $pop;
+                            font-weight: 500;
+                            font-size: 14px;
+                            color: #242424;
+                            position: relative;
+                            top: -2px;
+                        }
+                    }
+                }
+
+                #EmailError{
+                    color: #D23939;
+                    font-family: $pop;
+                    font-size: 9px;
+                    font-style: italic;
+                    font-weight: 300;
+                }
+                #phoneError{
+                    color: #D23939;
+                    font-family: $pop;
+                    font-size: 9px;
+                    font-style: italic;
+                    font-weight: 300;
+                }
+                #nameNext{
+                    opacity: 0;
+                    visibility: hidden;
+                    transition: 0.4s;
+                    background: #44D66C;
+                    font-weight: 600;
+                    font-size: 12px;
+                    color: #fff;
+                    font-family: $pop;
+                    padding: 12px 60px;
+                    border: none;
+                    border-radius: 5px;
+                    margin: 0 auto;
+                    display: table;
+                    margin-top: 90px;
+                    position: relative;
+                    outline: none;
+                    box-shadow: none;
+                    span{
+                        position: absolute;
+                        right: 10px;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        font-size: 17px;
+                    }
+                }
+                #nameNext.show{
+                    opacity: 1;
+                    visibility: visible;
+                }
+                ::placeholder { 
+                    color: rgba(36, 36, 36, 0.2);
+                    opacity: 1; /* Firefox */
+                  }
+                  
+                  :-ms-input-placeholder {
+                    color: rgba(36, 36, 36, 0.2);
+                  }
+                  
+                  ::-ms-input-placeholder { 
+                    color: rgba(36, 36, 36, 0.2);
+                  }
+                  // for email
+                  #EmailNext{
+                    opacity: 0;
+                    visibility: hidden;
+                    transition: 0.4s;
+                    background: #44D66C;
+                    font-weight: 600;
+                    font-size: 12px;
+                    color: #fff;
+                    font-family: $pop;
+                    padding: 12px 60px;
+                    border: none;
+                    border-radius: 5px;
+                    margin: 0 auto;
+                    display: table;
+                    margin-top: 90px;
+                    position: relative;
+                    outline: none;
+                    box-shadow: none;
+                    transition: 0.4s;
+                    span{
+                        position: absolute;
+                        right: 10px;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        font-size: 17px;
+                    }
+                }
+                #EmailNext.showEmailNext{
+                    opacity: 1;
+                    visibility: visible;
+                }
+                #EmailNext.dissable{
+                    opacity: 0.9;
+                    pointer-events: none;
+                }
+                // phone next
+                #PhoneNext{
+                    opacity: 0;
+                    visibility: hidden;
+                    transition: 0.4s;
+                    background: #44D66C;
+                    font-weight: 600;
+                    font-size: 12px;
+                    color: #fff;
+                    font-family: $pop;
+                    padding: 12px 60px;
+                    border: none;
+                    border-radius: 5px;
+                    margin: 0 auto;
+                    display: table;
+                    margin-top: 90px;
+                    position: relative;
+                    outline: none;
+                    box-shadow: none;
+                    transition: 0.4s;
+                    span{
+                        position: absolute;
+                        right: 10px;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        font-size: 17px;
+                    }
+                }
+                #PhoneNext.showPhoneNext{
+                    opacity: 1;
+                    visibility: visible;
+                }
+                #PhoneNext.dissable{
+                    opacity: 0.9;
+                    pointer-events: none;
+                }
+
+                #SubmitButton{
+                    opacity: 0;
+                    visibility: hidden;
+                    transition: 0.4s;
+                    background: #44D66C;
+                    font-weight: 600;
+                    font-size: 12px;
+                    color: #fff;
+                    font-family: $pop;
+                    padding: 12px 60px;
+                    border: none;
+                    border-radius: 5px;
+                    margin: 0 auto;
+                    display: table;
+                    margin-top: 60px;
+                    position: relative;
+                    outline: none;
+                    box-shadow: none;
+                    transition: 0.4s;
+                }
+                #SubmitButton.showSubmit{
+                    opacity: 1;
+                    visibility: visible;
+                }
+
+
+
+
+
+
+
+
+            }
+            #formPageFormItem1{
+                transition: 0.4s;
+            }
+            #formPageFormItem1.hide{
+                opacity: 0;
+                visibility: hidden;
+                display: none;
+            }
+            #formPageFormItem2{
+                display: none;
+            }
+            #formPageFormItem2.showItem2{
+                display: block;
+            }
+            #formPageFormItem3{
+                display: none;
+            }
+            #formPageFormItem3.showItem3{
+                display: block;
+            }
+            #formPageFormItem4{
+                display: none;
+            }
+            #formPageFormItem4.showItem4{
+                display: block;
+            }
+        }
+    }
+}
+// otp main 
+#optMainarea{
+    background: url(../img/img/form_bg.png);
+    min-height: 71vh;
+    background-repeat: no-repeat;
+    background-position: 89% top;
+    padding: 50px 0px;
+    .optMainareaContent{
+        // padding: 50px 0px;
+        text-align: center;
+        background: #fff;
+        input {
+            width: 47px;
+            padding: 10px 0px;
+            border: none;
+            border-bottom: 1px solid #000;
+            margin: 0px 12px;
+            text-align: center;
+            font-family: $pop;
+            font-size: 15px;
+            font-weight: 500;
+        } 
+        .verifyBtn{
+            a{
+                transition: 0.4s;
+                background: #44D66C;
+                font-weight: 600;
+                font-size: 12px;
+                color: #fff;
+                font-family: $pop;
+                padding: 12px 60px;
+                border: none;
+                border-radius: 5px;
+                margin: 0 auto;
+                display: table;
+                margin-top: 60px;
+                position: relative;
+                outline: none;
+                box-shadow: none;
+                transition: 0.4s;
+            }
+        }
+        .resentOtp{
+            margin-top: 30px;
+            a{
+                font-weight: 500;
+                font-size: 15px;
+                font-family: $pop;
+                color: #5C5C5C;
+            }
+            
+        }
+    }
+}
+// phoneEditPopup
+#phoneEditPopup{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: rgba(255, 255, 255, 0.836);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s;
+    .phoneEditPopupContent{
+        padding: 30px 0px;
+        width: 90%;
+        background: #fff;
+        box-shadow: 0px 0px 3px rgba(0,0,0,.2);
+        text-align: center;
+        border-radius: 5px;
+        position: relative;
+        #phoneEditClose{
+            position: absolute;
+            top: 2px;
+            right: 10px;
+            color: #C4C4C4;
+        }
+        p{
+            font-family: $pop;
+            font-size: 13px;
+            color: rgba(36, 36, 36, 0.4);
+            font-weight: 500;
+        }
+        // style input phone
+        .iti.iti--allow-dropdown {
+            margin-top: 30px;
+            width: 100%;
+            background: transparent;
+            font-size: 14px;
+            color: #242424;
+            font-family: $pop;
+            font-weight: 500;
+        }
+        .iti__country {
+            padding: 5px 0px;
+            outline: none;
+            font-size: 13px;
+            font-family: $pop;
+        }
+        .iti__flag {
+            display: none !important;
+        }
+        .iti--separate-dial-code .iti__selected-flag {
+            background-color: transparent;
+        } 
+        #formPageForm .formPageFormContent form .formPageFormItem .iti--separate-dial-code .iti__selected-flag {
+            background-color: transparent;
+            padding-left: 0px;
+            padding-right: 0px !important;
+            font-family: $pop;
+        }  
+        input#phoneEdit{
+            border: none;
+            width: 100%;
+            font-size: 14px;
+            color: #242424;
+            font-family: "Poppins",sans-serif;
+            font-weight: 500;
+            padding-left: 54px !important;
+            background: transparent;
+        }
+        .iti--separate-dial-code .iti__selected-dial-code {
+            margin-left: 0px !important;
+        }
+        .iti__selected-flag {
+            padding: 0px;
+        }
+        .iti.iti--allow-dropdown.iti--separate-dial-code {
+            margin-left: 69px;
+            margin-top: 9px !important;
+        }
+    }
+}
+#phoneEditPopup.show{
+    opacity: 1;
+    visibility: visible;
+}
+
+// tahnksBanar
+#tahnksBanar{
+    padding: 60px 0px;
+    background: #FFF1F1;
+    .tahnksBanarContent{
+        h3{
+            font-family: $pop;
+            font-weight: 500;
+            font-size: 32px;
+            color: #242424;
+            line-height: 40px;
+            span{
+                font-weight: 700;
+            }
+        }
+    }
+}
+//thanksBottom
+#thanksBottom{
+    background: #fff;
+    .thanksBottomContet{
+        img{
+            display: block;
+            height: 95px;
+            margin: 0 auto;
+            position: relative;
+            top: -50px;
+        }
+        a{
+            transition: 0.4s;
+            background: #44D66C;
+            font-weight: 600;
+            font-size: 14px;
+            color: #fff;
+            font-family: $pop;
+            padding: 16px 0px;
+            border: none;
+            border-radius: 5px;
+            margin: 0 auto;
+            display: block;
+            margin-top: -30px;
+            position: relative;
+            outline: none;
+            box-shadow: none;
+            transition: 0.4s;
+            text-transform: capitalize;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

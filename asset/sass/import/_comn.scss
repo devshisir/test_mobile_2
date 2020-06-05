@@ -1,0 +1,13 @@
+@import '_color.scss';
+%aftercontent{
+    position: absolute;
+    height: 100%;
+    left: 0;
+    content: "";
+}
+.pst{
+    position: static !important;
+}
+.psr{
+    position: relative !important;
+}

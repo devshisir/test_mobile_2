@@ -244,12 +244,32 @@
         text-align: center;
         width: 100%;
     }
-
-
-
-
-
-
+    .formula_areaContent_slider_item h5 {
+        text-align: center !important;
+        font-size: 18px;
+        color: #393939;
+        line-height: 26px;
+        width: 90%;
+        margin: 0 auto;
+            margin-top: 0px;
+        margin-top: 30px;
+    }
+    #formula_area .formula_areaContent h4::after {
+       display: none !important;
+    }
+    .formula_areaContent h4 {
+        padding-top: 0px !important;
+    }
+    #banar_bottom{
+        padding-bottom: 70px !important;
+    }
+    .BanarAreaContent h3{
+        font-weight: 600 !important;
+    }
+    .BanarAreaContent p {
+        font-size: 14px !important;
+        line-height: 24px !important;
+    }
 
 
 
